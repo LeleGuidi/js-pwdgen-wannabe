@@ -5,8 +5,9 @@
 
 const FirstName = prompt("Qual'è il tuo nome?");
 console.debug(FirstName);
-const surname = prompt("Qual'è il tuo cognome?")
-console.debug(surname)
-const color = prompt("Qual'è il tuo colore preferito?")
-console.debug(color)
+const surname = prompt("Qual'è il tuo cognome?");
+console.debug(surname);
+const color = prompt("Qual'è il tuo colore preferito?");
+console.debug(color);
+document.getElementById("password").innerHTML += ` ${FirstName}${surname}${color}21`;
 
